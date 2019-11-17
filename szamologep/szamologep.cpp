@@ -4,10 +4,10 @@ using namespace std;
 
 int fv();   //maga a program
 
-void jelek(); //ismertetı
+void jelek(); //ismertet≈ë
 void megad(char &jel,int &szam1,int &szam2); //declaration
 
-int szamologep(char &jel,int &szam1,int &szam2,int &eredmeny); //a sz·molÛgÈp fv
+int szamologep(char &jel,int &szam1,int &szam2,int &eredmeny); //a sz√°mol√≥g√©p fv
 
 int main(){
     setlocale(LC_ALL,"hun");
@@ -27,7 +27,7 @@ int fv()
 }
 
 void jelek(){
-    cout<<"Jelek: + - * / Q = quit/exit/kilÈpÈs, n - new/˙j sz·mok"<<endl;
+    cout<<"Jelek: + - * / Q = quit/exit/kil√©p√©s, n - new/√∫j sz√°mok"<<endl;
 }
 
 void megad(char &jel,int &szam1,int &szam2){
@@ -62,7 +62,7 @@ int szamologep(char &jel,int &szam1,int &szam2,int &eredmeny){
               break;
         }
 
-        cout<<"EredmÈny: "<<eredmeny<<endl<<"Sz·molj tˆbbszˆr\n";
+        cout<<"Eredm√©ny: "<<eredmeny<<endl<<"Sz√°molj t√∂bbsz√∂r\n";
         fv();
     return 0;
 }
